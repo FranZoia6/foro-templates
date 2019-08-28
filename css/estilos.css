@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+	font-family: Roboto;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #212121;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+
+}
+
+.nav-content{
+	/*background: #5752F0;*/
+	/*background: #6763F0;*/
+	background: #1e6391;
+	box-shadow: 2px 2px 5px #111;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.form-nav-prin{
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px 2px 5px #154666;
+	width: 40%;
+}
+
+.form-nav-prin input{
+	padding: 8px;
+	border: none;
+}
+
+.form-nav-prin input:focus, .form-nav-prin button:focus{
+	outline:0px;
+}
+
+.form-nav-prin input[type="text"]{
+	border-radius: 2px 0 0 2px;
+	height: 20px;
+	outline:0px;
+	font-size: 20px;
+	width: 92%;
+}
+
+/*.form-nav-prin input[type="submit"]{
+	border-radius: 0 2px 2px 0;
+	background: #fff;
+	border-left: solid 1px #ddd;
+	width: 12%;
+}*/
+
+.form-nav-prin button{
+	background: #fff;
+	border: none;
+	border-radius: 0 2px 2px 0;
+	cursor: pointer;
+	width: 8%;
+}
+.form-nav-prin button div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-left: solid 1px #bbb;
+	padding: 3px 0 3px 0;
+	width: 100%;
+}
+.form-nav-prin button img{
+	margin-right: 2px;
+	width: 16px;
+}
+
+
+
+.nav-menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-menu li{
+	font-size: 14px;
+	padding: 15px;
+}
