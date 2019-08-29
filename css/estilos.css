@@ -21,11 +21,12 @@ li{
 .nav-content{
 	/*background: #5752F0;*/
 	/*background: #6763F0;*/
-	background: #1e6391;
+	background-image: linear-gradient(#2A81BB,#1e6391);
 	box-shadow: 2px 2px 5px #202020;
 	color: #fff;
 	display: flex;
 	justify-content: center;
+	position: fixed;
 	width: 100%;
 }
 
@@ -133,40 +134,118 @@ li{
 }
 
 .post-home header{
-	border-bottom: solid 1px #444444;
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 10px 0 0;
 }
 
-.post-home header ul{
+.post-options{
 	display: flex;
 	width: 30%;
 }
 
-.post-home header li{
+.post-options li{
 	display: flex;
 	justify-content: center;
 	padding: 4px 20px;
-	border-right: solid 1px #4444;
+	border-right: solid 1px #555;
 }
 
-.post-home header li button{
-	background: #555;
-	border-radius: 50%;
+.post-options li button{
+	background: none;
 	border:none;
+	cursor: pointer;
 	padding: 3px;
 	width: 30px;
 	height:30px;
 }
 
-.post-home header li img{
-	width: 22px;
-	height: 22px;
+.post-options li img{
+	width: 18px;
+	height: 18px;
 }
 
+.header-prin-post{
+	box-shadow: 0 8px 6px -6px  #303030;
+}
+
+.post-home header input[list="browsers"]{
+	background: #212121;
+	border: solid 1px #444;
+	border-radius: 2px;
+	color: #fff;
+	padding: 5px;
+}
+
+.post-home header input[list="browsers"] datalist{
+	background: #212121;
+	border: solid 1px #444;
+}
+
+.content-post{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.art-post{
+	border-bottom: solid 1px #444;
+	width: 100%;
+
+}
+
+.art-post header{
+	display: flex;
+	justify-content: center;
+	padding: 20px  0px  5px 0px;
+	width: 100%;
+}
+
+.user-dates{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 95%;
+}
+
+.post-home-ph-perfil{
+	background-image: url("../img/perfil.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 3px;
+	width: 60px;
+	height: 60px;
+}
+
+.post-contenido{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.post-soporte{
+	padding: 25px 0 25px 0;
+	width: 95%;
+}
+
+.art-post footer{
+	border-top: solid 1px #444;
+}
+
+.footer-soporte{
+	padding: 10px 0 10px 0;
+	width: 95%;
+}
 
 .opciones{
 	width: 20%;
+}
+
+.art-post:hover{
+	background: #404040;
+	transition: .3s;
 }
