@@ -22,7 +22,6 @@ li{
 	/*background: #5752F0;*/
 	/*background: #6763F0;*/
 	background-image: linear-gradient(#2A81BB,#1e6391);
-	box-shadow: 2px 2px 5px #202020;
 	color: #fff;
 	display: flex;
 	justify-content: center;
@@ -102,6 +101,11 @@ li{
 	padding: 15px;
 }
 
+.nav-menu img{
+	width: 20px;
+	height: 20px;
+}
+
 .content{
 	align-items: center;
 	display: flex;
@@ -110,6 +114,7 @@ li{
 }
 
 .main-content{
+	align-items: flex-start;
 	display: flex;
 	justify-content: space-between;
 	max-width: 1920px;
@@ -149,7 +154,7 @@ li{
 	display: flex;
 	justify-content: center;
 	padding: 4px 20px;
-	border-right: solid 1px #555;
+	border-right: solid 1px #444;
 }
 
 .post-options li button{
@@ -167,7 +172,7 @@ li{
 }
 
 .header-prin-post{
-	box-shadow: 0 8px 6px -6px  #303030;
+	box-shadow: 0 2px 4px -2px  #303030;
 }
 
 .post-home header input[list="browsers"]{
@@ -211,14 +216,19 @@ li{
 	width: 95%;
 }
 
-.post-home-ph-perfil{
+.post-home-ph-perfil, .menu-home-ph-perfil{
 	background-image: url("../img/perfil.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
     background-position: 50% 50%;
-    border-radius: 3px;
+    border-radius: 50%;
 	width: 60px;
 	height: 60px;
+}
+
+.menu-home-ph-perfil{
+	height: 30px;
+	width: 30px;
 }
 
 .post-contenido{
@@ -238,7 +248,7 @@ li{
 
 .footer-soporte{
 	padding: 10px 0 10px 0;
-	width: 95%;
+	width: 100%;
 }
 
 .opciones{
@@ -248,4 +258,36 @@ li{
 .art-post:hover{
 	background: #404040;
 	transition: .3s;
+}
+
+
+.img-perfil{
+	background-image: url("../img/perfil.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 50%;
+    border: solid 4px #444;
+	height: 130px;
+	margin-top: 40px;
+    top: 40px;
+	width: 130px;
+}
+
+.datos-user{
+	border-top: solid 4px #444;
+}
+
+.portada-home, .datos-user{
+	height: 110px;
+}
+
+.portada-home{
+	display: flex;
+	justify-content: center;
+}
+
+.datos-user{
+	background: #444;
+	padding: 65px 10px 0 10px;
 }
