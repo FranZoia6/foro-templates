@@ -274,11 +274,7 @@ li{
 	width: 130px;
 }
 
-.datos-user{
-	border-top: solid 4px #444;
-}
-
-.portada-home, .datos-user{
+.portada-home{
 	height: 110px;
 }
 
@@ -289,5 +285,32 @@ li{
 
 .datos-user{
 	background: #444;
-	padding: 65px 10px 0 10px;
+	border-top: solid 4px #444;
+	padding: 65px 10px 25px 10px;
+}
+
+.name-home{
+	margin: 10px 0 10px 0;
+}
+
+.datos-home{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-top: 15px;
+	width: 80%;
+}
+
+.dato-item p{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.dato-item p:nth-child(1){
+	color: #eee;
+}
+
+.dato-item p:nth-child(2){
+	color: #bbb;
 }
